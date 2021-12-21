@@ -1,0 +1,49 @@
+style2.css
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    height: 128px;
+}
+.title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'VERDANA';
+    font-size: 36px;
+    padding-top: 1%;
+
+}
+.list{
+    background: rgb(70, 70, 220);
+    line-height: 40px;
+}
+.list li{
+    list-style: none;
+    display:inline-block;
+    text-align:center;
+
+}
+.list li a{
+    display:inline-block;
+    width: 50px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    color:black;
+}
+.list li a:hover{
+    text-decoration: underline;
+    border: 1px solid;
+}
+
+.left{
+    display: inline-block;
+    width: 20%;
+}
+footer{
+    text-align: center;
+    background: rgb(70, 70, 220);
+}
+body {
+    background: rgba(173, 231, 248, 0.795); /* Цвет фона */
+    color: rgb(0, 0, 0); /* Цвет текста */
+   }

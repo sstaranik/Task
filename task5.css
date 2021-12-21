@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'FreeMono', monospace;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    background: rgb(235, 252, 205);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    justify-container: center;
+}
+.task-content h3 {
+    margin: 5px;
+}
+h3,h2, button{
+    text-align: center;
+    }
+.task-content, .task-text, .button {
+    text-align: center;
+}
+input {
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    height: 25px;
+    width: 300px;
+}
+.task-text {
+    margin: 0 35px;
+}
+button {
+    cursor: pointer;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 50px;
+    background: rgb(211, 247, 149);
+}
+p {
+    font-size: 25px;
+    margin: 15px 0;
+}

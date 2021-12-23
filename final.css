@@ -1,0 +1,51 @@
+style2.css
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    height: 60px;
+}
+.title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'VERDANA';
+    font-size: 36px;
+    padding-top: 5%;
+
+}
+.list{
+    background: rgb(70, 70, 220);
+    line-height: 30px;
+}
+.list li{
+    list-style: none;
+    display:inline-block;
+    text-align:center;
+
+
+}
+.list li a{
+    display:inline-block;
+    width: 100px;
+    text-decoration: none;
+    border: 5px solid transparent;
+    color:rgb(0, 0, 0);
+}
+.list li a:hover{
+    text-decoration: underline;
+    border: 1px solid;
+    color:rgba(255, 153, 0, 0.815);
+}
+footer{
+    text-align: center;
+    background: rgb(70, 70, 220);
+    line-height: 20px;
+}
+body {
+    background: rgb(226, 216, 248);
+    color: rgb(0, 0, 0); 
+   }
+p {
+    font-family: Times, Times New Roman, serif;
+    font-size: 18px;
+  }
